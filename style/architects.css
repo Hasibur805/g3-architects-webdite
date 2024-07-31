@@ -50,7 +50,7 @@ header{
 .primary-btn{
     font-size: 1.4rem;
     color: #fff;
-    font-weight: 600S;
+    font-weight: 600;
     padding: 0.8rem 1.3rem;
     border: none;
     border-radius: 10px;
@@ -86,4 +86,47 @@ header{
     .nav ul li a{
         margin: 8px;
     }
+}
+
+/* main section */
+main{
+    max-width: 1440px;
+    margin: 70px auto; 
+}
+
+/* features section */
+
+
+.first-features{
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+}
+.feature-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.1rem;
+}
+.first-features > div{
+    width: 50%;
+}
+.feature-image img{
+    width: 100%;
+}
+.feature-description{
+    padding: 0 50px;
+}
+.first{
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);;
+}
+.second{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.third{
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: orange;
 }
