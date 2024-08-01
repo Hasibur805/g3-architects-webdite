@@ -131,6 +131,55 @@ main{
     margin-top: 3rem;
     gap: 40px;
 }
+/* architecture section */
+.architecture{
+    display: flex;
+    margin-top: 100px;
+    gap: 40px;
+    padding-left: 10px;
+}
+.architecture .card{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.architecture-container .archi-tects{
+    border-left: 5px solid orange;
+    padding-left: 10px;
+}
+.architecture-image img{
+    height: 90%;    
+    margin-left: 60px;
+}
+.experience{
+    padding: 20px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 10px;
+    width: 340px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+
+}
+
+.experience h2{
+    font-size: 4rem;
+}
+.experience p{
+    font-size: 1.5rem;
+}
+
+.footer{
+    background-color: #f7e3c5;
+    text-align: center;  
+    padding: 10px 0 8px 0;  
+}
+
+
+
 
 /* header responsive */
 
@@ -138,12 +187,16 @@ main{
     header, .first-features, .feature-description, .facts-section{
         padding: 20px;
     }
-    .nav, .first-features, .facts-container, .sponsor-img-container{
+    .nav, .first-features, .facts-container, .sponsor-img-container, .architecture{
         flex-direction: column;
         margin: 10px 0;
     }
     .feature-image{
         grid-template-columns: 1fr;        
+    }
+    .architecture-image img{
+        width: 100%;
+        margin-left: 0px;
     }
     .first-features > div{
         width: 100%;
@@ -162,7 +215,7 @@ main{
     .nav ul li a, .card{
         margin: 8px;
     }
-    .first-features, .sponsor-img-container{
+    .first-features, .sponsor-img-container, .architecture{
         flex-direction: column;
     }
     .first-features > div{
